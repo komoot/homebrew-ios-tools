@@ -7,6 +7,7 @@ class Bob < Formula
   homepage ""
   license ""
   head "https://github.com/komoot/bob-the-module-maker.git"
+  version "0.1"
 
   # depends_on "cmake" => :build
 
