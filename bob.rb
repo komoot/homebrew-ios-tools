@@ -6,7 +6,7 @@ class Bob < Formula
   desc ""
   homepage ""
   license ""
-  head "git@github.com:komoot/bob-the-module-maker.git"
+  head "https://github.com/komoot/bob-the-module-maker.git"
 
   # depends_on "cmake" => :build
 
