@@ -1,4 +1,4 @@
-class Bob2 < Formula
+class Bob < Formula
   desc "Module manager for the komoot iOS team"
   homepage "https://github.com/your/project"
   url "https://github.com/komoot/bob-the-module-maker"
