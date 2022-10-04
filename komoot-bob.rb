@@ -7,7 +7,7 @@ class KomootBob < Formula
   homepage ""
   license ""
 #  head "https://github.com/komoot/bob-the-module-maker.git"
-  url "https://github.com/komoot/bob-the-module-maker.git",
+  url "git@github.com:komoot/bob-the-module-maker.git",
     using:    :git,
     tag:      "0.1"
 
