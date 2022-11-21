@@ -12,7 +12,10 @@ class BobTheModuleMaker < Formula
 
 
   def install
-    system "swift", "build", "--configuration", "release", "--disable-sandbox" bin.install '.build/release/bob-the-module-maker'
+    system "swift", "build",
+        "--configuration", "release",
+        "--disable-sandbox"
+    bin.install '.build/release/bob'
   end
 
 end
