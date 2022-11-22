@@ -13,6 +13,8 @@ class BobTheModuleMaker < Formula
 
   def install
     system "make", "install"
+    bin.install "bob-the-module-maker"
+    #bin.install_symlink Dir["#{HOMEBREW_PREFIX}/bin/"]
   end
 
 end
