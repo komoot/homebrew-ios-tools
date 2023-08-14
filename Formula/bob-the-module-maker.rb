@@ -5,7 +5,8 @@
 class BobTheModuleMaker < Formula
   desc ""
   homepage ""
-  url "git@github.com:komoot/bob-the-module-maker.git", :using => :git, tag: "1.0.0"
+  url "git@github.com:komoot/bob-the-module-maker.git", :using => :git
+  version "1.0.0"
   sha256 ""
   license ""
 
